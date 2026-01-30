@@ -1,0 +1,181 @@
+{
+  "settings": {
+    "name": "Aditya Shrivastava",
+    "title": "DevOps Engineer",
+    "location": "India",
+    "summary": "DevOps Engineer with expertise in CI/CD pipelines, AWS, Docker, Kubernetes, and Jenkins automation, focused on operational efficiency.",
+    "profileImage": "https://t4.ftcdn.net/jpg/04/31/64/75/360_F_431647519_usrbQ8Z983hTYe8zgA7t1XVc5fEtqcpa.jpg"
+  },
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "ctaButtons": [
+        {
+          "text": "Get In Touch",
+          "url": "mailto:adityaannu206.shrivastava@gmail.com"
+        },
+        {
+          "text": "View Resume",
+          "url": "#"
+        }
+      ]
+    },
+    "about": {
+      "enabled": true,
+      "skills": {
+        "enabled": true,
+        "title": "Technical Skills",
+        "items": [
+          "AWS",
+          "Linux",
+          "Jenkins",
+          "Docker",
+          "Kubernetes",
+          "GitHub",
+          "Git",
+          "Docker Hub",
+          "Prometheus",
+          "Grafana",
+          "Bash",
+          "Python"
+        ]
+      }
+    },
+    "experience": {
+      "enabled": true,
+      "title": "Work Experience",
+      "items": [
+        {
+          "company": "OYEBUSY Technologies Pvt. Ltd.",
+          "position": "DevOps Engineer Intern",
+          "period": "Dec 2025 - Present",
+          "description": "Designed and maintained Jenkins-based CI/CD pipelines, reducing manual deployment effort by ~40%. Built and pushed Docker images to Docker Hub and deployed containerized applications to Kubernetes staging environments, improving consistency by ~50%. Automated build, deployment, and configuration workflows, cutting release time from hours to minutes. Diagnosed and resolved deployment issues (CrashLoopBackOff, image pull failures, misconfigurations), improving deployment success rate. Worked with AWS EC2 infrastructure and implemented logging and monitoring to reduce mean time to detect issues by ~30%."
+        }
+      ]
+    },
+    "projects": {
+      "enabled": true,
+      "title": "Featured Projects",
+      "items": [
+        {
+          "title": "Blue-Green Deployment on AWS",
+          "description": "Implemented a Blue-Green deployment strategy enabling zero-downtime releases and fast rollback. Configured parallel environments and load balancer traffic switching, reducing deployment risk by ~60%. Automated deployments using Jenkins and Docker with versioned images pushed to Docker Hub.",
+          "tags": [
+            "AWS",
+            "Jenkins",
+            "Docker",
+            "Blue-Green Deployment"
+          ],
+          "previewUrl": "#",
+          "repoUrl": "#"
+        },
+        {
+          "title": "Fully Automated CI/CD Pipeline (AWS)",
+          "description": "Built an end-to-end CI/CD pipeline using GitHub, Jenkins, Docker, Docker Hub, and AWS EC2. Integrated Prometheus, Grafana, and Node Exporter to improve system visibility and troubleshooting. Enabled proactive alerting, reducing deployment-related downtime.",
+          "tags": [
+            "CI/CD",
+            "AWS",
+            "Jenkins",
+            "Docker",
+            "Prometheus",
+            "Grafana"
+          ],
+          "previewUrl": "#",
+          "repoUrl": "#"
+        },
+        {
+          "title": "Jenkins CI/CD Pipeline for Dockerized Flask Application",
+          "description": "Implemented a Jenkins pipeline to build and deploy a Flask application using Docker on AWS EC2. Successfully validated CI pipeline execution, container build, and application deployment in the initial implementation stage. Demonstrated Jenkins automation, Docker image workflows, and CI/CD fundamentals in a cloud environment.",
+          "tags": [
+            "Jenkins",
+            "CI/CD",
+            "Docker",
+            "Flask",
+            "AWS EC2"
+          ],
+          "previewUrl": "#",
+          "repoUrl": "#"
+        },
+        {
+          "title": "Jenkins CI/CD Pipeline with Docker & Docker Compose",
+          "description": "Built a declarative Jenkins pipeline automating Docker image builds, Docker Compose deployments, and image pushes to Docker Hub. Implemented Pipeline as Code using Jenkinsfile with secure credential handling and versioned images. Deployed and managed containerized applications on AWS EC2, demonstrating real-world CI/CD integration patterns.",
+          "tags": [
+            "Jenkins",
+            "CI/CD",
+            "Docker",
+            "Docker Compose",
+            "AWS EC2"
+          ],
+          "previewUrl": "#",
+          "repoUrl": "#"
+        }
+      ]
+    },
+    "education": {
+      "enabled": true,
+      "title": "Education",
+      "items": [
+        {
+          "institution": "University Institute of Technology, RGPV, Shivpuri",
+          "degree": "Bachelor of Technology (B.Tech) – Computer Science & Engineering",
+          "period": "August 2022 - June 2026"
+        }
+      ]
+    },
+    "achievements": {
+      "enabled": false,
+      "title": "Achievements & Certifications",
+      "items": []
+    },
+    "contact": {
+      "enabled": true,
+      "title": "Contact",
+      "email": "adityaannu206.shrivastava@gmail.com",
+      "phone": "+91 7898323708",
+      "location": "India"
+    },
+    "social": {
+      "enabled": true,
+      "items": [
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/in/aditya-shrivastava-40a915330",
+          "icon": "linkedin"
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "enabled": true,
+    "items": [
+      {
+        "name": "Home",
+        "url": "/"
+      },
+      {
+        "name": "About",
+        "url": "#about"
+      },
+      {
+        "name": "Projects",
+        "url": "#projects"
+      },
+      {
+        "name": "Experience",
+        "url": "#experience"
+      },
+      {
+        "name": "Education",
+        "url": "#education"
+      },
+      {
+        "name": "Contact",
+        "url": "#contact"
+      }
+    ]
+  },
+  "footer": {
+    "enabled": true,
+    "copyright": "© 2025 Aditya Shrivastava. All rights reserved."
+  }
+}
